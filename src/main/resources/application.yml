@@ -1,0 +1,13 @@
+server:
+  port: 8712
+
+
+spring:
+  application:
+    name: cloudeurekatutorial
+
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false

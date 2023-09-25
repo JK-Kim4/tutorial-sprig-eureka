@@ -2,12 +2,14 @@ package com.tutomato.cloudeuruka;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 @SpringBootApplication
-public class CloudeurukaApplication {
+@EnableEurekaServer
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(CloudeurukaApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
